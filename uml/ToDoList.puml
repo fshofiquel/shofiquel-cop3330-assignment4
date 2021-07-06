@@ -22,10 +22,15 @@ class ToDoListDriver
     + viewClick()
 }
 
+class createToDoList
+{
+}
+
 
 javafx.Application <|-- ToDoList
 
 ToDoList -- ToDoListDriver
+ToDoListDriver -- createToDoList
 
 
 
