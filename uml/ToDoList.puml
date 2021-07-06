@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Launcher
+{
+    main()
+    start()
+}
+
+class ToDoListDriver
+{
+    toDoList: TextField
+    tasksList: TextField
+
+    addToDoClick()
+    importClick()
+    exportClick()
+    addOrEditClick()
+    viewClick()
+}
+
+
+javafx.Application <|-- Launcher
+
+ToDoList -- ToDoListDriver
+
+
+
+@enduml
