@@ -10,13 +10,13 @@ public class ToDoListController
 {
 
 	@FXML
-	public ListView toDosList;
+	private ListView toDosList;
 	@FXML
-	public TextField toDoListName;
+	private TextField toDoListName;
 	@FXML
-	public ListView tasksList;
+	private ListView tasksList;
 	@FXML
-	public TextField editTasks;
+	private TextField editTasks;
 
 	@FXML
 	public void addToDoClick(ActionEvent actionEvent)
